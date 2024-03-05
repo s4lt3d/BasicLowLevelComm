@@ -16,3 +16,7 @@ This project is intended to ease serial communication between projects and creat
 ## Communication and Parsing
 - serviceIncomingSerial() and parseBuffer(): Manage incoming serial data, storing it in a circular buffer and parsing complete messages based on a custom protocol.
 - sendMemoryMessage, burstMemoryMessage, sendAsciiMessage, sendVersion: Utilities to format and send data packets back to the connected serial device, adhering to the custom protocol.
+
+## External Dependency
+- A very optimized embedded version of a circular buffer is used and can be found here.
+https://www.arduino.cc/reference/en/libraries/circularbuffer/
